@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ClientRepositoryTests {
-
+/*
     @Autowired
     private ClientRepository cr;
 
@@ -50,4 +50,5 @@ public class ClientRepositoryTests {
     Client prof = cr.save(new Client("Marquinha", "Sergio"));
     assertThat(cr.findByPrenom("Sergio")).extracting(Client::getPrenom).containsOnly(prof.getPrenom());
     }
+    */
 }
